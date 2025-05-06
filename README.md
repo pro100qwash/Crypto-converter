@@ -82,6 +82,20 @@ Handles all Tkinter UI elements
 Contains logic for displaying results, history, and stats
 
 
+📈 Example History Record
+
+Example entry in exchange_history.json:
+
+`{
+  "timestamp": "2025-05-06T14:32:00",
+  "base_currency": "BTC",
+  "target_currency": "USDT",
+  "rate": 58200.5,
+  "amount": 0.01,
+  "converted_amount": 582.005
+}`
+
+
 🖼 Screenshot
 
 ![image](https://github.com/user-attachments/assets/6187a1ef-f5ba-4630-b4d7-baab3e0f0701)
