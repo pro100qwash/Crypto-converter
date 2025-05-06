@@ -100,6 +100,7 @@ Indirect conversion is done via USDT when a direct pair is not supported.
 Make sure you are connected to the internet to fetch exchange rates.
 
 📜 License
+
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute.
 
