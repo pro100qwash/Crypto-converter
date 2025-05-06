@@ -42,7 +42,7 @@ Make sure Python 3.7 or higher is installed.
 
 !!!Clone the repository:
 
-git clone https://github.com/yourusername/currency-exchange-app.git
+git clone https://github.com/pro100qwash/Crypto-converter.git
 
 cd currency-exchange-app
 
