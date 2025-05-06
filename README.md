@@ -40,15 +40,9 @@ pip install requests
 
 Make sure Python 3.7 or higher is installed.
 
-!!!Clone the repository:
+Download all files
 
-git clone https://github.com/pro100qwash/Crypto-converter.git
-
-cd currency-exchange-app
-
-!!!Run the application:
-
-python main.py
+Run main.py
 
 🛠 Code Structure
 
