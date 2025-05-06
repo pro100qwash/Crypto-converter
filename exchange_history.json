@@ -1,0 +1,178 @@
+[
+    {
+        "timestamp": "2024-12-01T17:09:23.420249",
+        "base_currency": "USDT",
+        "target_currency": "WIF",
+        "rate": 0.2968239833778569,
+        "amount": 2281337.0,
+        "converted_amount": 677155.53576729
+    },
+    {
+        "timestamp": "2024-12-01T17:14:31.731035",
+        "base_currency": "SOL",
+        "target_currency": "USDT",
+        "rate": 238.89,
+        "amount": 10.0,
+        "converted_amount": 2388.8999999999996
+    },
+    {
+        "timestamp": "2024-12-01T17:14:38.397441",
+        "base_currency": "SOL",
+        "target_currency": "USDT",
+        "rate": 238.92,
+        "amount": 11.0,
+        "converted_amount": 2628.12
+    },
+    {
+        "timestamp": "2024-12-01T17:14:46.853965",
+        "base_currency": "ZRO",
+        "target_currency": "USDT",
+        "rate": 6.418,
+        "amount": 30.0,
+        "converted_amount": 192.54
+    },
+    {
+        "timestamp": "2024-12-03T18:22:43.567173",
+        "base_currency": "USDT",
+        "target_currency": "BTC",
+        "rate": 1.052232948801817e-05,
+        "amount": 1000.0,
+        "converted_amount": 0.01052232948801817
+    },
+    {
+        "timestamp": "2024-12-03T18:25:55.337814",
+        "base_currency": "USDT",
+        "target_currency": "BTC",
+        "rate": 1.0533895759095703e-05,
+        "amount": 1000.0,
+        "converted_amount": 0.010533895759095703
+    },
+    {
+        "timestamp": "2024-12-03T18:25:58.562236",
+        "base_currency": "USDT",
+        "target_currency": "BTC",
+        "rate": 1.0534827930441481e-05,
+        "amount": 100000.0,
+        "converted_amount": 1.0534827930441482
+    },
+    {
+        "timestamp": "2024-12-03T18:26:06.412019",
+        "base_currency": "BTC",
+        "target_currency": "USDT",
+        "rate": 94951.56,
+        "amount": 1.0,
+        "converted_amount": 94951.56
+    },
+    {
+        "timestamp": "2024-12-03T18:26:09.364685",
+        "base_currency": "BTC",
+        "target_currency": "USDT",
+        "rate": 94977.3,
+        "amount": 1.0,
+        "converted_amount": 94977.3
+    },
+    {
+        "timestamp": "2024-12-03T18:30:17.409732",
+        "base_currency": "USDT",
+        "target_currency": "SOL",
+        "rate": 0.004514468872737123,
+        "amount": 1000.0,
+        "converted_amount": 4.5144688727371225
+    },
+    {
+        "timestamp": "2024-12-03T18:30:17.717182",
+        "base_currency": "USDT",
+        "target_currency": "SOL",
+        "rate": 0.004514468872737123,
+        "amount": 1000.0,
+        "converted_amount": 4.5144688727371225
+    },
+    {
+        "timestamp": "2024-12-03T18:34:17.359339",
+        "base_currency": "SOL",
+        "target_currency": "BTC",
+        "rate": 0.002334607465303578,
+        "amount": 100.0,
+        "converted_amount": 0.2334607465303578
+    },
+    {
+        "timestamp": "2024-12-03T18:34:25.534979",
+        "base_currency": "SOL",
+        "target_currency": "USDT",
+        "rate": 222.21,
+        "amount": 100.0,
+        "converted_amount": 22221.0
+    },
+    {
+        "timestamp": "2024-12-03T18:34:43.054615",
+        "base_currency": "USDT",
+        "target_currency": "BTC",
+        "rate": 1.0511708940029755e-05,
+        "amount": 22221.0,
+        "converted_amount": 0.2335806843564012
+    },
+    {
+        "timestamp": "2024-12-03T18:38:43.143914",
+        "base_currency": "SOL",
+        "target_currency": "BTC",
+        "rate": 0.0023390198440946903,
+        "amount": 100.0,
+        "converted_amount": 0.23390198440946902
+    },
+    {
+        "timestamp": "2024-12-03T18:50:30.643001",
+        "base_currency": "SOL",
+        "target_currency": "BTC",
+        "rate": 0.0023417295345276442,
+        "amount": 100.0,
+        "converted_amount": 0.23417295345276443
+    },
+    {
+        "timestamp": "2024-12-03T18:59:54.369298",
+        "base_currency": "SOL",
+        "target_currency": "BTC",
+        "rate": 0.002344513085945653,
+        "amount": 100.0,
+        "converted_amount": 0.23445130859456528
+    },
+    {
+        "timestamp": "2024-12-03T19:01:51.708286",
+        "base_currency": "USDT",
+        "target_currency": "SOL",
+        "rate": 0.004456327985739751,
+        "amount": 100.0,
+        "converted_amount": 0.4456327985739751
+    },
+    {
+        "timestamp": "2024-12-06T21:41:45.134906",
+        "base_currency": "SOL",
+        "target_currency": "WIF",
+        "rate": 68.39393071858002,
+        "amount": 100.0,
+        "converted_amount": 6839.393071858002
+    },
+    {
+        "timestamp": "2024-12-06T22:09:33.319625",
+        "base_currency": "SOL",
+        "target_currency": "WIF",
+        "rate": 67.84313725490196,
+        "amount": 100.0,
+        "converted_amount": 6784.313725490196
+    },
+    {
+        "timestamp": "2024-12-06T22:09:37.474033",
+        "base_currency": "SOL",
+        "target_currency": "USDT",
+        "rate": 238.78,
+        "amount": 100.0,
+        "converted_amount": 23878.0
+    },
+    {
+        "timestamp": "2024-12-13T10:45:17.736622",
+        "base_currency": "SOL",
+        "target_currency": "WIF",
+        "rate": 76.90598290598291,
+        "amount": 10.0,
+        "converted_amount": 769.0598290598291
+    }
+]
