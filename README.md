@@ -1,78 +1,86 @@
-💱 Currency Exchange GUI App (Binance API)
+# 💱 Cryptocurrency Exchange GUI App (Binance API)
 
-A simple Python GUI application for cryptocurrency exchange using the Binance API. This app allows you to:
+This is a user-friendly cryptocurrency exchange calculator built in **Python** using the **Tkinter GUI toolkit** and **Binance API**.  
+It allows users to convert between cryptocurrencies (e.g. BTC → USDT), track exchange history, and view basic rate statistics.
 
-Fetch real-time exchange rates for cryptocurrencies.
+---
 
-Convert between different currencies.
+## 🧩 Features
 
-Store a history of your exchanges.
+- 🔁 Real-time cryptocurrency conversion via Binance API
+- 🧮 Currency input: base, target, and amount
+- 📈 Built-in history viewer and exchange rate statistics
+- 💾 Local storage of conversion history in `exchange_history.json`
+- 🎨 Dark-themed GUI with Binance branding
+- 🧠 Automatically prevents invalid inputs and same-currency conversion
 
-View exchange rate statistics (maximum, minimum, average).
+---
 
-🖼 Interface
+## 🚀 How to Run
 
-The application uses Tkinter to provide a modern dark-themed graphical interface. It includes:
+1. Make sure Python 3.7+ is installed.
 
-Input fields for base and target currencies.
+2. Clone the repository or copy the project files:
+   ```bash
+   git clone https://github.com/yourusername/crypto-exchange-app.git
+   cd crypto-exchange-app
 
-Real-time conversion using Binance rates.
+3. Install dependencies:
+   ```bash
+   pip install requests
 
-Conversion result display.
+4. Place the Binance logo image (binance.png) in the root folder (optional).
 
-History and statistics buttons.
+5. Run the application:
+   
+   ```bash
+   python main.py
 
-A Binance logo embedded into the UI.
+🎮 Interface Overview
 
-📦 Dependencies
+| Component         | Function                                     |
+| ----------------- | -------------------------------------------- |
+| Base Currency     | Enter the original currency (e.g. BTC)       |
+| Target Currency   | Enter the currency to convert to (e.g. USDT) |
+| Amount            | Specify the amount to convert                |
+| Convert Button    | Executes the conversion                      |
+| History Button    | Opens a new window with past conversions     |
+| Statistics Button | Shows max, min, and average rates            |
+| Result Label      | Displays converted value                     |
 
-Python 3.7+
+📂 Files Overview
 
-requests — for HTTP requests to the Binance API.
+| File                    | Description                          |
+| ----------------------- | ------------------------------------ |
+| `main.py`               | Full source code (GUI, logic, API)   |
+| `exchange_history.json` | Stores local history of conversions  |
+| `binance.png`           | Optional logo image (appears in GUI) |
+| `README.md`             | Project description                  |
 
-tkinter — for GUI (built-in with most Python distributions).
+🧠 Code Structure
 
-!!!To install required dependencies:
+📦 Classes
 
-pip install requests
+`ExchangeBase`
 
-🚀 How to Run
+Loads and saves exchange history
 
-Make sure Python 3.7 or higher is installed.
+Provides statistics: min, max, average
 
-Download all files
+`CryptoCurrencyExchange (inherits from ExchangeBase)`
 
-Run main.py
+Communicates with Binance API
 
-🛠 Code Structure
+Handles conversion logic
 
-ExchangeBase
+Supports indirect conversion via USDT if needed
 
-Handles storage and retrieval of exchange history and statistical calculations.
+`CurrencyExchangeApp`
 
-CryptoCurrencyExchange
+Handles all Tkinter UI elements
 
-Inherits ExchangeBase. Responsible for interacting with the Binance API and calculating conversion rates.
+Contains logic for displaying results, history, and stats
 
-CurrencyExchangeApp
-
-The Tkinter GUI class. Handles all user input, output, and interaction.
-
-exchange_history.json
-
-Stores local history of all conversions made via the app.
-
-📊 Features
-
-✅ Real-time cryptocurrency conversion using Binance.
-
-✅ Conversion history saved locally to JSON.
-
-✅ History viewer with timestamps and values.
-
-✅ Statistics calculation: max, min, average rates.
-
-✅ Dark-themed modern GUI.
 
 🖼 Screenshot
 
@@ -90,6 +98,10 @@ Works only with currency pairs available on Binance.
 Indirect conversion is done via USDT when a direct pair is not supported.
 
 Make sure you are connected to the internet to fetch exchange rates.
+
+📜 License
+This project is licensed under the MIT License.
+Feel free to use, modify, and distribute.
 
 👨‍💻 Author
 
