@@ -39,17 +39,13 @@ Make sure Python 3.7 or higher is installed.
 
 Clone the repository:
 
-bash
-Копировать
-Редактировать
 git clone https://github.com/yourusername/currency-exchange-app.git
 cd currency-exchange-app
+
 Run the application:
 
-bash
-Копировать
-Редактировать
 python main.py
+
 🛠 Code Structure
 ExchangeBase
 Handles storage and retrieval of exchange history and statistical calculations.
@@ -76,7 +72,11 @@ Stores local history of all conversions made via the app.
 
 🖼 Screenshot
 
-![image](https://github.com/user-attachments/assets/b0198dc0-f040-4f6e-8c52-5a646771f983)
+![image](https://github.com/user-attachments/assets/6187a1ef-f5ba-4630-b4d7-baab3e0f0701)
+
+![image](https://github.com/user-attachments/assets/881e9389-de21-44e0-a82b-2a7353d0e97a)
+
+![image](https://github.com/user-attachments/assets/31848616-32d7-43c6-a94d-9014113581f2)
 
 
 ⚠️ Notes
