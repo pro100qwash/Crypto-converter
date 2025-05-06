@@ -10,6 +10,7 @@ Store a history of your exchanges.
 View exchange rate statistics (maximum, minimum, average).
 
 🖼 Interface
+
 The application uses Tkinter to provide a modern dark-themed graphical interface. It includes:
 
 Input fields for base and target currencies.
@@ -23,6 +24,7 @@ History and statistics buttons.
 A Binance logo embedded into the UI.
 
 📦 Dependencies
+
 Python 3.7+
 
 requests — for HTTP requests to the Binance API.
@@ -47,6 +49,7 @@ Run the application:
 python main.py
 
 🛠 Code Structure
+
 ExchangeBase
 Handles storage and retrieval of exchange history and statistical calculations.
 
