@@ -22,8 +22,8 @@ It allows users to convert between cryptocurrencies (e.g. BTC → USDT), track e
 
 2. Clone the repository or copy the project files:
    ```bash
-   git clone https://github.com/yourusername/crypto-exchange-app.git
-   cd crypto-exchange-app
+   git clone https://github.com/pro100qwash/Crypto-converter.git
+   cd main.py
 
 3. Install dependencies:
    ```bash
